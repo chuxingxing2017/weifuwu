@@ -17,6 +17,7 @@ public interface SkuInfoService {
      * @Version 2.1
      **/
 
+    
     void importSkuInfoToEs();
 
     Map<String,Object> search(Map<String, String> searchMap);
